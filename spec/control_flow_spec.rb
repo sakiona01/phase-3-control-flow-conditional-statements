@@ -88,5 +88,4 @@ describe '#calculator' do
   it 'returns nil for invalid operators' do
     expect(calculator('nope', 4, 2)).to eq(nil)
   end
-  
 end
